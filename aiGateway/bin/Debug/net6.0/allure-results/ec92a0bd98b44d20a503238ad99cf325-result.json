@@ -1,0 +1,94 @@
+{
+  "uuid": "1163a525ca8b4601bb625393386539bc",
+  "historyId": "OpenAI Proxy GPT 3.5 Turbo",
+  "fullName": "OpenAI Proxy GPT 3.5 Turbo",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-4FRH7NQK"
+    },
+    {
+      "name": "feature",
+      "value": "AI Gateway"
+    }
+  ],
+  "links": [],
+  "name": "OpenAI Proxy GPT 3.5 Turbo",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  que eu tenha os dados servicesId e apiKey",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1698777961988,
+      "stop": 1698777961996
+    },
+    {
+      "name": "And  quero criar o modelo \"gpt-35-turbo\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1698777961999,
+      "stop": 1698777962002
+    },
+    {
+      "name": "When  envio a requisicao para o endpoint do AI Gateway",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1698777962002,
+      "stop": 1698777964208
+    },
+    {
+      "name": "Then  entao vejo o status ok e o atributo completion_tokens maior que Zero",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1698777964208,
+      "stop": 1698777964218
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1698777961980,
+  "stop": 1698777964223
+}
